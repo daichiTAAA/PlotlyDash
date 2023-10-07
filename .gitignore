@@ -164,3 +164,4 @@ parquet_files/
 .xml
 .csv
 export/
+.DS_Store
