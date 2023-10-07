@@ -161,6 +161,7 @@ cython_debug/
 
 # data
 parquet_files/
+csv_files/
 .xml
 .csv
 export/

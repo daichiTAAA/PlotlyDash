@@ -38,6 +38,7 @@ def upload_file(contents, filename):
                 f"./parquet_files/{filename.replace('.csv', '.parquet')}",
                 engine="pyarrow",
             )
+            df.to_csv(f"./csv_files/{filename}", index=False)
             return "File uploaded and saved as a Parquet file!"
         else:
             return "Unsupported file type. Please upload a CSV file."
