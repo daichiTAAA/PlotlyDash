@@ -81,7 +81,7 @@ app.layout = html.Div(
             [
                 dbc.Col(
                     [
-                        html.H5("Visualized Data"),
+                        html.H5("Visualize Data"),
                         dbc.InputGroup(
                             [
                                 dbc.Textarea(
