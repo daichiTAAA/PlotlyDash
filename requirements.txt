@@ -4,3 +4,7 @@ numpy==1.26.0
 pandas==2.1.1
 plotly==5.17.0
 scipy==1.11.3
+langchain==0.0.316
+transformers==4.34.0
+torch==2.1.0+cu118
+torchvision==2.1.0+cu118
